@@ -1,0 +1,2 @@
+<!--components/button/button.wxml-->
+<button class="i-button {{type}}" bindtap="handleTap">{{value}}</button>

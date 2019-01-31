@@ -14,6 +14,28 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
+function formatMoney(s) {
+  if (/[^0-9\.]/.test(s))
+    return '0'
+  if (s == null || s == 'null' || s == '')
+    return '0'
+
+  s = s.toString().replace(/^(\d*\.?)$/, '$1.')
+  s = s.replace('.', ',')
+  let re = /(\d)(\d{3},)/
+  while (re.test(s)) {
+    s = s.replace(re, '$1,$2')
+  }
+  if (/,(\d+)$/.test(s)) {
+    s = s.replace(/,(\d*)$/, '.$1')
+  } else {
+    s = s.replace(/,(\.?)$/, '$1')
+  }
+
+  return s;
+}
+
 module.exports = {
-  formatTime: formatTime
+  formatTime: formatTime,
+  formatMoney
 }

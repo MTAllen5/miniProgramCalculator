@@ -1,0 +1,25 @@
+<!--pages/calculator/calculator.wxml-->
+<view class="calculator">
+  <result result="{{result}}">111111</result>
+  <view class="button-grid">
+    <i-button type="prefix" value="AC" bindtapBtn="handleTap"></i-button>
+    <i-button type="prefix" value="±" bindtapBtn="handleTap"></i-button>
+    <i-button type="prefix" value="%" bindtapBtn="handleTap"></i-button>
+    <i-button type="option" value="÷" bindtapBtn="handleTap"></i-button>
+    <i-button type="number" value="7" bindtapBtn="handleTap"></i-button>
+    <i-button type="number" value="8" bindtapBtn="handleTap"></i-button>
+    <i-button type="number" value="9" bindtapBtn="handleTap"></i-button>
+    <i-button type="option" value="×" bindtapBtn="handleTap"></i-button>
+    <i-button type="number" value="4" bindtapBtn="handleTap"></i-button>
+    <i-button type="number" value="5" bindtapBtn="handleTap"></i-button>
+    <i-button type="number" value="6" bindtapBtn="handleTap"></i-button>
+    <i-button type="option" value="-" bindtapBtn="handleTap"></i-button>
+    <i-button type="number" value="1" bindtapBtn="handleTap"></i-button>
+    <i-button type="number" value="2" bindtapBtn="handleTap"></i-button>
+    <i-button type="number" value="3" bindtapBtn="handleTap"></i-button>
+    <i-button type="option" value="+" bindtapBtn="handleTap"></i-button>
+    <i-button class="long" type="number" value="0" bindtapBtn="handleTap"></i-button>
+    <i-button type="number" value="." bindtapBtn="handleTap"></i-button>
+    <i-button type="option" value="=" bindtapBtn="handleTap"></i-button>
+  </view>
+</view>

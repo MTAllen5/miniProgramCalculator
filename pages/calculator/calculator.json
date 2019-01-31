@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "result": "../../components/result/result",
+    "i-button": "../../components/button/button"
+  }
+}

@@ -1,0 +1,30 @@
+/* components/button/button.wxss */
+.i-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 154rpx;
+  height: 154rpx;
+  border-radius: 77rpx;
+  background-color: #333;
+  color: #eee;
+  font-size: 50rpx;
+  transition: background-color .2s;
+}
+.i-button:active {
+  background-color: #9a9a9a;
+}
+.i-button.prefix {
+  background-color: #9a9a9a;
+  color: #111;
+}
+.i-button.prefix:active {
+  background-color: #d3d3d3;
+}
+.i-button.option {
+  background-color: #EA8B05;
+}
+.i-button.option:active {
+  background-color: rgb(238, 188, 119);
+}

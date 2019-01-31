@@ -1,0 +1,4 @@
+<!--components/result.wxml-->
+<view class="result-box">
+  <text class="result-box-text">{{ resultTxt }}</text>
+</view>

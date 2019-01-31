@@ -1,0 +1,19 @@
+/* pages/calculator/calculator.wxss */
+page {
+  background-color: #111;
+}
+.calculator {
+  background-color: #111;
+}
+.button-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button-grid i-button {
+  margin: 10rpx;
+}
+.button-grid .long button {
+  width: 330rpx;
+}
