@@ -15,7 +15,7 @@ const formatNumber = n => {
 }
 
 function formatMoney(s) {
-  if (/[^0-9\.]/.test(s))
+  if (/[^-?0-9\.]/.test(s))
     return '0'
   if (s == null || s == 'null' || s == '')
     return '0'
@@ -36,6 +36,6 @@ function formatMoney(s) {
 }
 
 module.exports = {
-  formatTime: formatTime,
+  formatTime,
   formatMoney
 }

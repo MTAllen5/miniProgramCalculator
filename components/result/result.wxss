@@ -6,11 +6,21 @@
   text-align: right;
 }
 .result-box-text {
-  padding: 0 30rpx;
   display: inline-block;
+  padding: 0 30rpx;
+  height: 210rpx;
   border-radius: 16rpx;
   font-size: 180rpx;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  line-height: 1.2;
+  line-height: 210rpx;
   word-break: break-all;
+}
+.result-box-text.small {
+  font-size: 148rpx;
+}
+.result-box-text.smaller {
+  font-size: 130rpx;
+}
+.result-box-text.smallerer {
+  font-size: 118rpx;
 }

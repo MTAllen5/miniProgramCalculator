@@ -16,6 +16,13 @@ Component({
           resultTxt: utils.formatMoney(newVal)
         })
       }
+    },
+    fontSize: {
+      type: String,
+      value: 'normal',
+      // observer(newVal, oldVal, changedPath) {
+      //   console.log(newVal)
+      // }
     }
   },
 

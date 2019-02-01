@@ -1,6 +1,6 @@
 <!--pages/calculator/calculator.wxml-->
 <view class="calculator">
-  <result result="{{result}}">111111</result>
+  <result result="{{result}}" fontSize="{{resultFont}}">111111</result>
   <view class="button-grid">
     <i-button type="prefix" value="AC" bindtapBtn="handleTap"></i-button>
     <i-button type="prefix" value="±" bindtapBtn="handleTap"></i-button>
